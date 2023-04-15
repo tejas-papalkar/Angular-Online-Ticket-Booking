@@ -3,14 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HelloGComponent } from './hello-g/hello-g.component';
+
 import { HeaderComponent } from './header/header.component';
+import { MainContainerComponent } from './main-container/main-container.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HelloGComponent,
-    HeaderComponent
+   
+    HeaderComponent,
+        MainContainerComponent,
+        FooterComponent
   ],
   imports: [
     BrowserModule,
