@@ -1,11 +1,11 @@
 .main-cont{
-    background-color: aqua;
+    
     height: 600px;
     display: flex;
 }
 .left-div{
     display: inline-block;
-    background-color: rgb(182, 141, 141);
+   border: 2px solid black;
     height: 550px;
     width: 300px;
     margin-top: 20px;
@@ -13,7 +13,7 @@
 }
 .right-div{
     display: inline-block;
-    background-color: brown;
+    border: 2px solid black;
     height: 550px;
     width: 75vw;
     margin-top: 20px;
