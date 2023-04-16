@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./main-container.component.css']
 })
 export class MainContainerComponent {
-
+  clearCheckboxes(): void {
+    const checkboxes: NodeListOf<HTMLInputElement> = document.querySelectorAll('input[type="checkbox"]');
+    checkboxes.forEach((checkbox: HTMLInputElement) => {
+      checkbox.checked = false;
+    });
+  }
+  
 }
